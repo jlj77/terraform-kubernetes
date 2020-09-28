@@ -24,7 +24,7 @@ variable "google_project" {
 
 variable "username" {
   type        = string
-  default     = "tfc"
+  default     = "admin"
   description = "Username for GKE clusters"
 }
 
