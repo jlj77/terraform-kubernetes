@@ -2,7 +2,7 @@ variable "location" {
   type        = map
   description = "Map containing provider and the region to deploy clusters."
   default = {
-    gcp = "us-central1"
+    gcp = "europe-west2"
   }
 }
 
@@ -24,7 +24,7 @@ variable "google_project" {
 
 variable "username" {
   type        = string
-  default     = "admin"
+  default     = "tfc"
   description = "Username for GKE clusters"
 }
 
